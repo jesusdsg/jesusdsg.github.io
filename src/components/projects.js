@@ -1,0 +1,116 @@
+import React from 'react';
+import {StaticImage} from 'gatsby-plugin-image';
+import '../css/projects.css';
+
+const Projects = () => {
+    return (
+        <div id="projects" className="py-32 px-10 lg:px-36 md:px-10 bg-light-primary dark:bg-dark-primary">
+            <div className="grid lg:grid-cols-3 grid-cols-1 gap-16">
+                
+                <div className="cursor-pointer project-card">
+                    <StaticImage src="../images/eclipse.jpg" alt="projets" className="project-img w-full m-auto text-center rounded-large mb-2 border-gray-100 border-2 dark:border-gray-600" />
+                    <span className="title project-title text-2xl text-gray-500 dark:text-gray-200">Eclipse</span><br />
+                    <p className="text-gray-500 dark:text-gray-400 h-8">Simple and minimalist portfolio template based in photography. #VueJs #HTML5</p>
+                    <div className="inline-flex gap-2 lg:pt-2 pt-5">
+                        <a href="https://github.com/jesusdsg/eclipse">
+                            <svg enableBackground="new 0 0 24 24" fill="currentColor" className="h-5 w-5 text-gray-400 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-600" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m.184 10.462c-.779 4.906 1.401 10.823 8.123 13.006.12.022.231.032.335.032.782 0 1.32-.582 1.32-1.3-.097-.523.383-2.642-.92-2.357-2.519.536-2.821-.871-3.205-1.607 1.086 1.394 2.718 1.359 3.949.819.683-.3.326-1.064.65-1.343.496-.426.244-1.243-.407-1.314-2.314-.255-4.457-1.001-4.457-4.702 0-2.168 1.505-2.362 1.09-3.269-.015-.033-.333-.754-.045-1.849 1.419.262 2.072 1.28 2.753 1.097 1.687-.46 3.544-.46 5.23 0 .704.189 1.207-.801 2.738-1.103.441 1.654-.473 2.058.103 2.677.632.68.953 1.503.953 2.447 0 5.564-4.717 3.957-5.101 5.22-.088.288.005.599.235.792.61.513.53 1.83.465 2.889-.067 1.098-.125 2.045.482 2.579.214.19.595.393 1.284.253 6.634-2.131 8.83-8.022 8.063-12.917-2.096-13.368-21.526-13.352-23.638-.05zm8.27 10.978.004.505c-.523-.181-1.015-.39-1.475-.623.425.109.913.156 1.471.118zm.37-3.7c-.005.026-.01.053-.015.08-.853.252-1.509.001-1.957-.752 0-.001 0-.001-.001-.002.68.364 1.381.56 1.973.674zm3.176-15.74c11.833 0 14.502 16.267 3.469 19.941-.038-.297-.003-.857.021-1.252.058-.951.126-2.059-.213-2.985 5.088-1.059 5.513-6.646 3.554-9.135.243-.952.145-3.189-.729-3.463-.206-.065-1.305-.304-3.437 1.037-1.741-.416-3.62-.417-5.361 0-1.064-.667-3.462-1.752-3.922-.6-.534 1.342-.407 2.427-.248 3.03-1.739 2.204-1.218 5.894.534 7.626-.993-.475-2.361-.637-2.656.314-.323 1.037.912.911 1.679 2.804.073.236.208.513.415.788-6.811-5.565-3.525-18.105 6.894-18.105z"/></svg></a>
+                        <a href="https://jesusdsg.gitlab.io/eclipse/">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-gray-400 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div className="cursor-pointer project-card">
+                    <StaticImage src="../images/notec.jpg" alt="projets" className="project-img w-full m-auto text-center rounded-large mb-2 border-gray-100 border-2 dark:border-gray-600" />
+                    <span className="title project-title text-2xl text-gray-500 dark:text-gray-200">Note Calculator</span><br />
+                    <p className="text-gray-500 dark:text-gray-400 h-8">Calculate the missing grade to pass the period, based in javascript. #Jquery</p>
+                    <div className="inline-flex gap-2 lg:pt-2 pt-5">
+                        <a href="https://github.com/jesusdsg/noteCalculator">
+                            <svg enableBackground="new 0 0 24 24" fill="currentColor" className="h-5 w-5 text-gray-400 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-600" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m.184 10.462c-.779 4.906 1.401 10.823 8.123 13.006.12.022.231.032.335.032.782 0 1.32-.582 1.32-1.3-.097-.523.383-2.642-.92-2.357-2.519.536-2.821-.871-3.205-1.607 1.086 1.394 2.718 1.359 3.949.819.683-.3.326-1.064.65-1.343.496-.426.244-1.243-.407-1.314-2.314-.255-4.457-1.001-4.457-4.702 0-2.168 1.505-2.362 1.09-3.269-.015-.033-.333-.754-.045-1.849 1.419.262 2.072 1.28 2.753 1.097 1.687-.46 3.544-.46 5.23 0 .704.189 1.207-.801 2.738-1.103.441 1.654-.473 2.058.103 2.677.632.68.953 1.503.953 2.447 0 5.564-4.717 3.957-5.101 5.22-.088.288.005.599.235.792.61.513.53 1.83.465 2.889-.067 1.098-.125 2.045.482 2.579.214.19.595.393 1.284.253 6.634-2.131 8.83-8.022 8.063-12.917-2.096-13.368-21.526-13.352-23.638-.05zm8.27 10.978.004.505c-.523-.181-1.015-.39-1.475-.623.425.109.913.156 1.471.118zm.37-3.7c-.005.026-.01.053-.015.08-.853.252-1.509.001-1.957-.752 0-.001 0-.001-.001-.002.68.364 1.381.56 1.973.674zm3.176-15.74c11.833 0 14.502 16.267 3.469 19.941-.038-.297-.003-.857.021-1.252.058-.951.126-2.059-.213-2.985 5.088-1.059 5.513-6.646 3.554-9.135.243-.952.145-3.189-.729-3.463-.206-.065-1.305-.304-3.437 1.037-1.741-.416-3.62-.417-5.361 0-1.064-.667-3.462-1.752-3.922-.6-.534 1.342-.407 2.427-.248 3.03-1.739 2.204-1.218 5.894.534 7.626-.993-.475-2.361-.637-2.656.314-.323 1.037.912.911 1.679 2.804.073.236.208.513.415.788-6.811-5.565-3.525-18.105 6.894-18.105z"/></svg></a>
+                        <a href="https://jesusdsg.github.io/noteCalculator/">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-gray-400 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div className="cursor-pointer project-card">
+                    <StaticImage src="../images/nuevaeps.jpg" alt="projets" className="project-img w-full m-auto text-center rounded-large mb-2 border-gray-100 border-2 dark:border-gray-600" />
+                    <span className="title project-title text-2xl text-gray-500 dark:text-gray-200">NuevaEPS App</span><br />
+                    <p className="text-gray-500 dark:text-gray-400 h-8">Minismalist proposal design for health provider entity. #UI #Design</p>
+                    <div className="inline-flex gap-2 lg:pt-2 pt-5">
+                        <a href="https://dribbble.com/shots/14985772-Nueva-EPS-propuesta" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-gray-400 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div className="cursor-pointer project-card">
+                    <StaticImage src="../images/digama.jpg" alt="projets" className="project-img w-full m-auto text-center rounded-large mb-2 border-gray-100 border-2 dark:border-gray-600" />
+                    <span className="title project-title text-2xl text-gray-500 dark:text-gray-200">Digama</span><br />
+                    <p className="text-gray-500 dark:text-gray-400 h-8">Ecommerce website designed for a fashion store. #fashion #responsibe</p>
+                    <div className="inline-flex gap-2 lg:pt-2 pt-5">
+                        
+                        <a href="https://dribbble.com/shots/11989859-Digama-Ecommerce" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-gray-400 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div className="cursor-pointer project-card">
+                    <StaticImage src="../images/liquor.jpg" alt="projets" className="project-img w-full m-auto text-center rounded-large mb-2 border-gray-100 border-2 dark:border-gray-600" />
+                    <span className="title project-title text-2xl text-gray-500 dark:text-gray-200">Liquor Finder</span><br />
+                    <p className="text-gray-500 dark:text-gray-400 h-8">Mobile design for a finder and liquor app. #liquor #mobile</p>
+                    <div className="inline-flex gap-2 lg:pt-2 pt-5">
+                        
+                        <a href="https://dribbble.com/shots/11906435-Liquor-Finder" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-gray-400 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div className="cursor-pointer project-card">
+                    <StaticImage src="../images/aelo.jpg" alt="projets" className="project-img w-full m-auto text-center rounded-large mb-2 border-gray-100 border-2 dark:border-gray-600" />
+                    <span className="title project-title text-2xl text-gray-500 dark:text-gray-200">Aelo Dev</span><br />
+                    <p className="text-gray-500 dark:text-gray-400 h-8">Website mockup designed for a Development company. #Web #Mockup</p>
+                    <div className="inline-flex gap-2 lg:pt-2 pt-5">
+                        <a href="https://www.behance.net/gallery/93098835/Aelo-Company" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-gray-400 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div className="cursor-pointer project-card">
+                    <StaticImage src="../images/library.jpg" alt="projets" className="project-img w-full m-auto text-center rounded-large mb-2 border-gray-100 border-2 dark:border-gray-600" />
+                    <span className="title project-title text-2xl text-gray-500 dark:text-gray-200">LibraryMG</span><br />
+                    <p className="text-gray-500 dark:text-gray-400 h-8">Basic library manager with CRUD Operations. #C #MVC #SQL</p>
+                    <div className="inline-flex gap-2 lg:pt-2 pt-5">
+                        <a href="https://github.com/jesusdsg/librarymg" target="_blank">
+                            <svg enableBackground="new 0 0 24 24" fill="currentColor" className="h-5 w-5 text-gray-400 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-600" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m.184 10.462c-.779 4.906 1.401 10.823 8.123 13.006.12.022.231.032.335.032.782 0 1.32-.582 1.32-1.3-.097-.523.383-2.642-.92-2.357-2.519.536-2.821-.871-3.205-1.607 1.086 1.394 2.718 1.359 3.949.819.683-.3.326-1.064.65-1.343.496-.426.244-1.243-.407-1.314-2.314-.255-4.457-1.001-4.457-4.702 0-2.168 1.505-2.362 1.09-3.269-.015-.033-.333-.754-.045-1.849 1.419.262 2.072 1.28 2.753 1.097 1.687-.46 3.544-.46 5.23 0 .704.189 1.207-.801 2.738-1.103.441 1.654-.473 2.058.103 2.677.632.68.953 1.503.953 2.447 0 5.564-4.717 3.957-5.101 5.22-.088.288.005.599.235.792.61.513.53 1.83.465 2.889-.067 1.098-.125 2.045.482 2.579.214.19.595.393 1.284.253 6.634-2.131 8.83-8.022 8.063-12.917-2.096-13.368-21.526-13.352-23.638-.05zm8.27 10.978.004.505c-.523-.181-1.015-.39-1.475-.623.425.109.913.156 1.471.118zm.37-3.7c-.005.026-.01.053-.015.08-.853.252-1.509.001-1.957-.752 0-.001 0-.001-.001-.002.68.364 1.381.56 1.973.674zm3.176-15.74c11.833 0 14.502 16.267 3.469 19.941-.038-.297-.003-.857.021-1.252.058-.951.126-2.059-.213-2.985 5.088-1.059 5.513-6.646 3.554-9.135.243-.952.145-3.189-.729-3.463-.206-.065-1.305-.304-3.437 1.037-1.741-.416-3.62-.417-5.361 0-1.064-.667-3.462-1.752-3.922-.6-.534 1.342-.407 2.427-.248 3.03-1.739 2.204-1.218 5.894.534 7.626-.993-.475-2.361-.637-2.656.314-.323 1.037.912.911 1.679 2.804.073.236.208.513.415.788-6.811-5.565-3.525-18.105 6.894-18.105z"/></svg></a>
+                    </div>
+                </div>
+
+        
+
+                
+            </div>
+        </div>
+    )
+}
+
+export default Projects;
+
