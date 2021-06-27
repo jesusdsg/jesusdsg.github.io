@@ -1,0 +1,2 @@
+(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[678],{7704:function(e,t,a){"use strict";a.r(t);var r=a(7294),u=a(9816),l=a(3751);t.default=function(){return r.createElement(u.Z,null,r.createElement(l.Z,{title:"Dev Jes"}))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-fe58ad6c6a99b5bac259.js.map
